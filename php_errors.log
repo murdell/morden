@@ -1,0 +1,16 @@
+[15-Jan-2019 11:10:15 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/ubuntu/workspace/wp-content/plugins/sportspress/modules/sportspress-default-nationality.php on line 53
+[15-Jan-2019 11:10:15 UTC] PHP Stack trace:
+[15-Jan-2019 11:10:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[15-Jan-2019 11:10:15 UTC] PHP   2. activate_plugin() /home/ubuntu/workspace/wp-admin/plugins.php:42
+[15-Jan-2019 11:10:15 UTC] PHP   3. do_action() /home/ubuntu/workspace/wp-admin/includes/plugin.php:591
+[15-Jan-2019 11:10:15 UTC] PHP   4. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[15-Jan-2019 11:10:15 UTC] PHP   5. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[15-Jan-2019 11:10:15 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[15-Jan-2019 11:10:15 UTC] PHP   7. SP_Install->install() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[15-Jan-2019 11:10:15 UTC] PHP   8. SP_Install->create_options() /home/ubuntu/workspace/wp-content/plugins/sportspress/includes/class-sp-install.php:74
+[15-Jan-2019 11:10:15 UTC] PHP   9. SP_Settings_General->get_settings() /home/ubuntu/workspace/wp-content/plugins/sportspress/includes/class-sp-install.php:106
+[15-Jan-2019 11:10:15 UTC] PHP  10. apply_filters() /home/ubuntu/workspace/wp-content/plugins/sportspress/includes/admin/settings/class-sp-settings-general.php:101
+[15-Jan-2019 11:10:15 UTC] PHP  11. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/plugin.php:203
+[15-Jan-2019 11:10:15 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[15-Jan-2019 11:10:15 UTC] PHP  13. SportsPress_Default_Nationality->add_general_options() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[15-Jan-2019 11:10:15 UTC] PHP  14. array_merge() /home/ubuntu/workspace/wp-content/plugins/sportspress/modules/sportspress-default-nationality.php:53
